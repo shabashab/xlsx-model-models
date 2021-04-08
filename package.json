@@ -7,10 +7,13 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "prepublish": "tsc"
+    "prepublishOnly": "tsc"
   },
   "devDependencies": {
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "typescript-collections": "^1.3.3"
   }
 }
