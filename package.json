@@ -1,0 +1,16 @@
+{
+  "name": "xlsx-model",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "shabashab",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "tsc"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  }
+}
