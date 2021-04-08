@@ -5,9 +5,13 @@
   "types": "dist/index.d.ts",
   "author": "shabashab",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/shabashab/xlsx-model"
+  },
+  "files": ["dist/**/*"],
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "tsc"
+    "prepublishOnly": "tsc --outFile dist/index.js"
   },
   "devDependencies": {
     "prettier": "^2.2.1",
