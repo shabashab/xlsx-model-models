@@ -1,11 +1,13 @@
-export class Border {
-  public right: boolean = false;
-  public left: boolean = false;
-  public top: boolean = false;
-  public bottom: boolean = false;
-
+export class BorderPart {
   public color?: string;
   public width?: number;
+}
+
+export class Border {
+  public right?: BorderPart;
+  public left?: BorderPart;
+  public top?: BorderPart;
+  public bottom?: BorderPart;
 }
 
 export default class CellStyle {
