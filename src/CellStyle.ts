@@ -4,14 +4,14 @@ export class Border {
   public top: boolean = false;
   public bottom: boolean = false;
 
-  public color: string | undefined;
-  public width: number | undefined;
+  public color?: string;
+  public width?: number;
 }
 
 export default class CellStyle {
-  public fillColor: string | undefined;
-  public textColor: string | undefined;
-  public fontSize: number | undefined;
+  public fillColor?: string;
+  public textColor?: string;
+  public fontSize?: number;
 
   public border: Border;
 
