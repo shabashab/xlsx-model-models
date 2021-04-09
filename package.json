@@ -1,12 +1,12 @@
 {
-  "name": "xlsx-model",
-  "version": "1.0.4",
+  "name": "@xlsx-model/models",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "shabashab",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/shabashab/xlsx-model"
+    "url": "https://github.com/shabashab/xlsx-model-models"
   },
   "files": [
     "dist/**/*"
