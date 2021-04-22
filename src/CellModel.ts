@@ -14,8 +14,8 @@ export default class CellModel {
     style?: CellStyle,
   ) {
     this.value = value || "";
-    this.rowSpan = rowSpan || 0;
-    this.columnSpan = columnSpan || 0;
+    this.rowSpan = rowSpan || 1;
+    this.columnSpan = columnSpan || 1;
     this.style = style || new CellStyle();
   }
 }
